@@ -1,0 +1,11 @@
+{
+  "https://mcp.vercel.com": {
+    "client_id": "cl_u9Y6yAeCZKABpKWFCuzW2oT2xU0ONoE1",
+    "token": {
+      "access_token": "vca_6qOBDuDDUAmGGWWj1oYwUT3HFG6Tjd7TCjbyfjasNxFg4NaYuP38DFzC",
+      "token_type": "Bearer",
+      "expiry": "2026-10-05T02:11:28.7206818+05:30"
+    },
+    "token_url": "https://api.vercel.com/login/oauth/token"
+  }
+}
