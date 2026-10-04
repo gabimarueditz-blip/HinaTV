@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "github-mcp-server": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+      }
+    },
+    "vercel": {
+      "serverUrl": "https://mcp.vercel.com"
+    }
+  }
+}
