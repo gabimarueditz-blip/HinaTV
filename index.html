@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HinaTV | Stream Anime Free</title>
+    <meta
+      name="description"
+      content="HinaTV is a free anime streaming website with trending series, new episodes, and curated watchlists."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="nav container">
+          <div class="brand" aria-label="HinaTV home">
+            <span class="brand-mark">H</span>
+            <span class="brand-text">HinaTV</span>
+          </div>
+
+          <div class="nav-links" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#trending">Trending</a>
+            <a href="#genres">Genres</a>
+            <a href="#new">New Episodes</a>
+          </div>
+
+          <div class="nav-actions">
+            <button class="ghost-btn">Log in</button>
+            <button class="primary-btn">Start Watching</button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero container" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Free anime streaming</p>
+            <h1>Watch your next obsession, anytime.</h1>
+            <p class="lead">
+              Discover bold adventures, heart-stopping battles, and cozy stories curated for your
+              next binge session.
+            </p>
+
+            <div class="hero-actions">
+              <button class="primary-btn large">Watch Now</button>
+              <button class="secondary-btn large">Browse Library</button>
+            </div>
+
+            <ul class="hero-stats" aria-label="Site stats">
+              <li><strong>24K+</strong><span>episodes</span></li>
+              <li><strong>420+</strong><span>series</span></li>
+              <li><strong>4.9/5</strong><span>community</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured anime">
+            <div class="feature-card">
+              <div class="poster-glow"></div>
+              <img
+                src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=900&q=80"
+                alt="Anime-inspired scenery"
+              />
+              <div class="feature-info">
+                <span class="badge">Featured</span>
+                <h2>Tokyo Nightfall</h2>
+                <div class="meta-row">
+                  <span>TV-14</span>
+                  <span>12 eps</span>
+                  <span>Action</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="top-picks container" id="trending">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Trending now</p>
+              <h2>Top picks for anime lovers</h2>
+            </div>
+            <a href="#" class="text-link">View all</a>
+          </div>
+
+          <div class="filter-row" aria-label="Anime categories">
+            <button class="chip active" type="button">All</button>
+            <button class="chip" type="button">Action</button>
+            <button class="chip" type="button">Fantasy</button>
+            <button class="chip" type="button">Romance</button>
+            <button class="chip" type="button">Comedy</button>
+            <button class="chip" type="button">Sci-Fi</button>
+          </div>
+
+          <div class="catalog" id="catalog" aria-live="polite"></div>
+        </section>
+
+        <section class="continue-watching container" id="new">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Continue watching</p>
+              <h2>Picked up from where you left off</h2>
+            </div>
+          </div>
+
+          <div class="watchlist">
+            <article class="mini-show">
+              <div class="mini-poster post-1"></div>
+              <div class="mini-info">
+                <h3>Moonlit Blade</h3>
+                <p>Episode 9 • 42 min left</p>
+                <div class="progress"><span style="width: 64%"></span></div>
+              </div>
+            </article>
+
+            <article class="mini-show">
+              <div class="mini-poster post-2"></div>
+              <div class="mini-info">
+                <h3>Celestial Drift</h3>
+                <p>Episode 4 • 18 min left</p>
+                <div class="progress"><span style="width: 40%"></span></div>
+              </div>
+            </article>
+
+            <article class="mini-show">
+              <div class="mini-poster post-3"></div>
+              <div class="mini-info">
+                <h3>Reign of Sakura</h3>
+                <p>Episode 11 • 11 min left</p>
+                <div class="progress"><span style="width: 72%"></span></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="genres container" id="genres">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Browse by genre</p>
+              <h2>Find the mood you’re in</h2>
+            </div>
+          </div>
+
+          <div class="genre-grid">
+            <div class="genre-card card-1"><span>Action</span></div>
+            <div class="genre-card card-2"><span>Fantasy</span></div>
+            <div class="genre-card card-3"><span>Romance</span></div>
+            <div class="genre-card card-4"><span>Comedy</span></div>
+            <div class="genre-card card-5"><span>Sci-Fi</span></div>
+            <div class="genre-card card-6"><span>Slice of Life</span></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <div>
+            <div class="brand footer-brand">
+              <span class="brand-mark">H</span>
+              <span class="brand-text">HinaTV</span>
+            </div>
+            <p>Stream anime free and discover your next obsession.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#">Help center</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
